@@ -8,8 +8,7 @@ let userID = '77a571fb-4fd2-4b37-8596-1b7d9728bb5c';
 
 const proxyIPs = ["[2a00:1098:2b::1:ac40:6c0a]"];//['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
 
-let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
-
+let proxyIP = '43.157.17.4'
 let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
 
 // v2board api environment variables (optional) deprecated, please use planetscale.com instead
